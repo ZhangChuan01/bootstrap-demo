@@ -10,8 +10,10 @@ $(function () {
 		if(smallScreen){
 			$(".item").empty();
 			$(".item").css('backgroundImage','url("'+imgSrc+'")');
+			$("#logo img").addClass("img-responsive");
+		}else{
+			$("#logo img").removeClass("img-responsive");
 		}
-
 	}
 	$(window).on('resize',resize).trigger('resize');
 	$(window).scroll(function(){
@@ -21,5 +23,15 @@ $(function () {
 		}else{
 			$(".bgc").css('height','0')
 		}
-	})
+		if(ele>100){
+			$("#service>.row>div").addClass("fadeInUp");
+		}
+		if(ele>1300){
+			$("#target .row:nth-child(1)").addClass("fadeInDown");
+			$("#target .row:nth-child(2)").addClass("fadeInUp");
+		}
+		if(ele>1890){
+			$("#footer .num").addClass("fadeInLeft");
+		}
+	});
 });

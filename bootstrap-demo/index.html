@@ -8,105 +8,460 @@
 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/index.css">
-	<!--[if lt IE 9]>
+	<!-- [if lt IE 9]>
 	    <script src="lib/html5shiv/html5shiv.min.js"></script>
 	    <script src="lib/respond/respond.min.js"></script>
-	    <![endif]-->
-	</head>
-	<body>
-		<header id="header">
-			<div class="bgc"></div>
-			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mylist">
-							<span class="sr-only"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a href="#" class="navbar-brand">
-							<img src="images/logo.png" alt="">
-						</a>
-					</div>
-					<div class="collapse navbar-collapse" id="mylist">
-						<ul class="nav navbar-nav nav-top">
-							<li><a href="#">我的首页</a></li>
-							<li><a href="#">案例中心</a></li>
-							<li><a href="#">解决方案</a></li>
-							<li><a href="#">关于我们</a></li>
-							<li><a href="#">资讯动态</a></li>
-							<li><a href="#">联系我们</a></li>
-						</ul>
-						<ul class="nav navbar-nav navbar-right hidden-md hidden-sm hidden-xs">
-							<div class="navbar-brand">
-								<img src="images/call.png" alt="">
+	<![endif]> -->
+</head>
+<body>
+	<header id="header">
+		<div class="bgc"></div>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mylist">
+						<span class="sr-only"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">
+						<img src="images/logo.png" alt="">
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="mylist">
+					<ul class="nav navbar-nav nav-top">
+						<li><a href="#">我的首页</a></li>
+						<li><a href="#">案例中心</a></li>
+						<li><a href="#">解决方案</a></li>
+						<li><a href="#">关于我们</a></li>
+						<li><a href="#">资讯动态</a></li>
+						<li><a href="#">联系我们</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right hidden-md hidden-sm hidden-xs">
+						<div class="navbar-brand">
+							<h2>15036093573</h2>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<section id="banner">
+		<div class="item" data-image-lg="images/banner.jpg" data-image-sm="images/banner-md.jpg">
+			
+		</div>
+	</section>
+	<section id="year" class="container">
+		<div class="row text-center animated fadeInDown">
+			<div class="col-sm-12">
+				<h2>这几年，我们一直在专注</h2>
+			</div>
+			<div class="col-sm-12">
+				<p>专注APP开发 网页设计 品牌定位 用心服务 帮您实现互联网品牌价值</p>
+			</div>
+		</div>
+	</section>
+	<section id="service" class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fade animated" style="animation-delay: 0.4s;">
+				<div class="design-top">
+					<img src="images/blog1.png" alt="" class="center-block">
+					<h4 class="text-center">APP设计与开发</h4>
+				</div>
+				<div class="design-bottom">
+					<p class="text-center">针对移动端开发需求提供<br>IOS、Android原生开发</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 animated fade" style="animation-delay: 0.8s";>
+				<div class="design-top">
+					<img src="images/blog2.png" alt="" class="center-block">
+					<h4 class="text-center">响应式网站开发</h4>
+				</div>
+				<div class="design-bottom">
+					<p class="text-center">创建页面的图片排版大小<br>根据用户的浏览环境进行相对应的布局</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 animated fade" style="animation-delay: 1.2s";>
+				<div class="design-top">
+					<img src="images/blog3.png" alt="" class="center-block">
+					<h4 class="text-center">服务器搭建与维护</h4>
+				</div>
+				<div class="design-bottom">
+					<p class="text-center">高效IT解决方案<br>助您的服务器完美运行</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 animated fade" style="animation-delay: 1.6s";>
+				<div class="design-top">
+					<img src="images/blog4.png" alt="" class="center-block">
+					<h4 class="text-center">品牌VI识别设计</h4>
+				</div>
+				<div class="design-bottom">
+					<p class="text-center">注重设计情感<br>为客户创造战略、产品、心智与视觉的高度统一</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="mytab">
+		<div class="ul-wapper">
+			<ul class="nav nav-tabs">
+				<li class="active center-block">
+					<a href="#recommend" data-toggle="tab">推荐案例</a>
+				</li>
+				<li>
+					<a href="#App" data-toggle="tab">App开发</a>
+				</li>
+				<li>
+					<a href="#website" data-toggle="tab">网站设计</a>
+				</li>
+				<li>
+					<a href="#taobao" data-toggle="tab">淘宝装修</a>
+				</li>
+				<li>
+					<a href="#weixin" data-toggle="tab">微信平台</a>
+				</li>
+			</ul>
+		</div>	
+		<div class="container-fluid">	
+			<div class="tab-content">
+				<div class="tab-pane fade in active" id="recommend">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-1.jpg" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>深圳市品色科技有限公司</h3>
+								<p>深圳市品色科技有限公司是专业的摄影器材制造商，致力于打造技术、品质、时尚领先的品牌，以强大的研发团队、技术领先和精湛...              </p>
+								<p>查看详情</p>
 							</div>
-						</ul>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-2.jpg" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>深圳市力风现代有限公司</h3>
+								<p>深圳市力风现代空调净化工程设计有限公司致力于净化工程设计及施工。至今走过了20个年头。  从大输液、小针剂、粉针剂、...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-3.jpg" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>深圳市伊爱车有限公司</h3>
+								<p>深圳市伊爱车安卫星监控有限公司于2001年6月在深圳注册成立，主要从事GPS全球卫星定位防盗反劫通讯系统系列产品的研发生产和...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-4.jpg" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>深圳徽商app开发</h3>
+								<p>应用开发：Android及iOS版开发语言：Android：JAVAiOS：Object-C开发周期：2个月开发功能：1、 深圳徽商会员企业的介绍及商品...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-5.png" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>人人掌柜</h3>
+								<p>北京人人掌柜电子商务有限公司（以下简称人人掌柜）是北京蜂巢互联科技集团的成员企业之一，已获得上达资本A轮2000万人民币投...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-6.png" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>汉川集团</h3>
+								<p>汉川集团创立于2002年，是一家专业硅胶生活用品、进口钨钢铣刀、生态农业及品牌策划等产品开发、设计、制造及销售为一体的实...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-7.png" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>大本钟珠宝</h3>
+								<p>大本钟("大笨钟")  源自于英国国会会议厅的钟楼BIGBEN，矗立于泰晤士河畔，为伦敦的百年标志性之一，以其准时...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-8.jpg" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>金豆图文设计有限公司</h3>
+								<p> 金豆一个刚成立的广告图文快印品牌，在不断成长的过程中清晰明确了图文行业的概念，并始终站在行业的前沿，引领国内行...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
 					</div>
 				</div>
-			</nav>
-		</header>
-		<section id="banner">
-			<div class="item" data-image-lg="images/banner.jpg" data-image-sm="images/banner-md.jpg"></div>
-		</section>
-		<section id="year" class="container">
-			<div class="row text-center animated fadeInDown">
-				<div class="col-sm-12">
-					<h2>这几年，我们一直在专注</h2>
+				<div class="tab-pane fade" id="App">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-5.png" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>人人掌柜</h3>
+								<p>北京人人掌柜电子商务有限公司（以下简称人人掌柜）是北京蜂巢互联科技集团的成员企业之一，已获得上达资本A轮2000万人民币投...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						
+					</div>
 				</div>
-				<div class="col-sm-12">
-					<p>专注APP开发 网页设计 品牌定位 用心服务 帮您实现互联网品牌价值</p>
+				<div class="tab-pane fade" id="website">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-1.jpg" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>深圳市品色科技有限公司</h3>
+								<p>深圳市品色科技有限公司是专业的摄影器材制造商，致力于打造技术、品质、时尚领先的品牌，以强大的研发团队、技术领先和精湛...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-2.jpg" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>深圳市力风现代有限公司</h3>
+								<p>深圳市力风现代空调净化工程设计有限公司致力于净化工程设计及施工。至今走过了20个年头。  从大输液、小针剂、粉针剂、...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-3.jpg" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>深圳市伊爱车有限公司</h3>
+								<p>深圳市伊爱车安卫星监控有限公司于2001年6月在深圳注册成立，主要从事GPS全球卫星定位防盗反劫通讯系统系列产品的研发生产和...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="taobao">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-5.png" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>人人掌柜</h3>
+								<p>北京人人掌柜电子商务有限公司（以下简称人人掌柜）是北京蜂巢互联科技集团的成员企业之一，已获得上达资本A轮2000万人民币投...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-6.png" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>汉川集团</h3>
+								<p>汉川集团创立于2002年，是一家专业硅胶生活用品、进口钨钢铣刀、生态农业及品牌策划等产品开发、设计、制造及销售为一体的实...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-7.png" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>大本钟珠宝</h3>
+								<p>大本钟("大笨钟")  源自于英国国会会议厅的钟楼BIGBEN，矗立于泰晤士河畔，为伦敦的百年标志性之一，以其准时...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-8.jpg" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>金豆图文设计有限公司</h3>
+								<p> 金豆一个刚成立的广告图文快印品牌，在不断成长的过程中清晰明确了图文行业的概念，并始终站在行业的前沿，引领国内行...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="weixin">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-1.jpg" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>深圳市品色科技有限公司</h3>
+								<p>深圳市品色科技有限公司是专业的摄影器材制造商，致力于打造技术、品质、时尚领先的品牌，以强大的研发团队、技术领先和精湛...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-2.jpg" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>深圳市力风现代有限公司</h3>
+								<p>深圳市力风现代空调净化工程设计有限公司致力于净化工程设计及施工。至今走过了20个年头。  从大输液、小针剂、粉针剂、...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-3.jpg" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>深圳市伊爱车有限公司</h3>
+								<p>深圳市伊爱车安卫星监控有限公司于2001年6月在深圳注册成立，主要从事GPS全球卫星定位防盗反劫通讯系统系列产品的研发生产和...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-4.jpg" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>深圳徽商app开发</h3>
+								<p>应用开发：Android及iOS版开发语言：Android：JAVAiOS：Object-C开发周期：2个月开发功能：1、 深圳徽商会员企业的介绍及商品...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-5.png" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>人人掌柜</h3>
+								<p>北京人人掌柜电子商务有限公司（以下简称人人掌柜）是北京蜂巢互联科技集团的成员企业之一，已获得上达资本A轮2000万人民币投...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-6.png" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>汉川集团</h3>
+								<p>汉川集团创立于2002年，是一家专业硅胶生活用品、进口钨钢铣刀、生态农业及品牌策划等产品开发、设计、制造及销售为一体的实...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-7.png" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>大本钟珠宝</h3>
+								<p>大本钟("大笨钟")  源自于英国国会会议厅的钟楼BIGBEN，矗立于泰晤士河畔，为伦敦的百年标志性之一，以其准时...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-xs-12">
+							<img src="images/exp-8.jpg" alt="" class="de-img">
+							<div class="text-center details">
+								<h3>金豆图文设计有限公司</h3>
+								<p> 金豆一个刚成立的广告图文快印品牌，在不断成长的过程中清晰明确了图文行业的概念，并始终站在行业的前沿，引领国内行...              </p>
+								<p>查看详情</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-		</section>
-		<section id="service" class="container">
+		</div>
+	</section>
+	<section id="target">
+		<div class="container text-center">
+			<div class="row animated fade">
+				<div class="col-lg-12">
+					<h3>全维度视角--从洞察到传播</h3>
+					<p>我们根据客户需求有针对性地定制核心传播策略，<br>用设计的方法推动产品价值最大化，帮助客户实现用户价值突破。</p>
+				</div>
+			</div>
+			<div class="row animated fade">
+				<div class="col-lg-12">
+					<img src="images/service-1.png" alt="" class="img-responsive cnter-block">
+					<h3>我们已服务超过200多家品牌客户</h3>
+					<p>13年成立以来，我们已服务超过500多家品牌客户，并且与各个行业的领军品牌保持长期合作</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="logo">
+		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 animated fadeInUp" style="animation-delay: 0.4s;">
-					<div class="design-top">
-						<img src="images/blog1.png" alt="" class="center-block">
-						<h4 class="text-center">APP设计与开发</h4>
-					</div>
-					<div class="design-bottom">
-						<p class="text-center">针对移动端开发需求提供<br>IOS、Android原生开发</p>
-					</div>
+				<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+					<img src="images/hb1.png" alt="" class="center-block">
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 animated fadeInUp" style="animation-delay: 0.8s";>
-					<div class="design-top">
-						<img src="images/blog2.png" alt="" class="center-block">
-						<h4 class="text-center">响应式网站开发</h4>
-					</div>
-					<div class="design-bottom">
-						<p class="text-center">创建页面的图片排版大小<br>根据用户的浏览环境进行相对应的布局</p>
-					</div>
+				<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+					<img src="images/hb2.png" alt="" class="center-block">
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 animated fadeInUp" style="animation-delay: 1.2s";>
-					<div class="design-top">
-						<img src="images/blog3.png" alt="" class="center-block">
-						<h4 class="text-center">服务器搭建与维护</h4>
-					</div>
-					<div class="design-bottom">
-						<p class="text-center">高效IT解决方案<br>助您的服务器完美运行</p>
-					</div>
+				<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+					<img src="images/hb3.png" alt="" class="center-block">	
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 animated fadeInUp" style="animation-delay: 1.6s";>
-					<div class="design-top">
-						<img src="images/blog4.png" alt="" class="center-block">
-						<h4 class="text-center">品牌VI识别设计</h4>
+				<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+					<img src="images/hb4.png" alt="" class="center-block">
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+					<img src="images/hb5.png" alt="" class="center-block">
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+					<img src="images/hb6.png" alt="" class="center-block">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+					<img src="images/hb6.png" alt="" class="center-block">
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+					<img src="images/hb5.png" alt="" class="center-block">
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+					<img src="images/hb4.png" alt="" class="center-block">
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+					<img src="images/hb3.png" alt="" class="center-block">
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+					<img src="images/hb2.png" alt="" class="center-block">	
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+					<img src="images/hb1.png" alt="" class="center-block">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="hello">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-12">
+					<h3>您好 HELLO!</h3>
+					<p>若您有合作意向，请您为我们留言或使用以下方式联系我们，我们将尽快给你回复，<br>并为您提供最真诚的设计服务，谢谢！</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<form class="form-inline" role="form">
+						<div class="row">	
+							<div class="form-group col-lg-4 col-md-4 col-sm-4">
+							    <input type="text" class="form-control" placeholder="您的姓名">
+							</div>
+							<div class="form-group col-lg-8 col-md-8 col-sm-8">
+							    <input type="password" class="form-control" placeholder="您的固话/手机">
+							</div>
+							<div class="form-group">
+							    <textarea class="form-control col-lg-12 col-md-12" placeholder="您的需求"></textarea>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-10">
+								  <button type="submit" class="btn btn-default">提交留言</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="col-lg-offset-2 col-md-offset-2 col-lg-4 col-md-4">
+					<div class="num animated fade col-lg-12 col-md-12 col-sm-6 col-xs-6" style="animation-delay:0.4s">
+						<img class="pull-left" src="images/tb-dh.png" alt="">
+						<h3 class="pull-left">15036093573</h3>
 					</div>
-					<div class="design-bottom">
-						<p class="text-center">注重设计情感<br>为客户创造战略、产品、心智与视觉的高度统一</p>
+					<div class="num animated fade col-lg-12 col-md-12 col-sm-6 col-xs-6" style="animation-delay:0.8s">
+						<img class="pull-left" src="images/tb-qq.png" alt="">
+						<p class="pull-left">在线客服</p>
+					</div>
+					<div class="num animated fade col-lg-12 col-md-12 col-sm-6 col-xs-6" style="animation-delay:1.2s">
+						<img class="pull-left" src="images/tb-yx.png" alt="">
+						<p class="pull-left">993090861@qq.com</p>
+					</div>
+					<div class="num animated fade col-lg-12 col-md-12 col-sm-6 col-xs-6" style="animation-delay:1.5s">
+						<img class="pull-left" src="images/tb-dw.png" alt="">
+						<p class="pull-left">上海宝山区</p>
 					</div>
 				</div>
 			</div>
-		</section>
-		<section></section>
-		<section></section>
-		<section></section>
-		<footer></footer>
-		<script src="lib/jquery/jquery.js"></script>
-		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
-		<script src="js/base.js"></script>
-		<script src="js/index.js"></script>
-	</body>
-	</html>
+		</div>
+	</footer>
+	<script src="lib/jquery/jquery.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/base.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
